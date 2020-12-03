@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 9.6rem;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  & > h1 {
+    font-size: 3.6rem;
+    font-family: "PT Serif";
+    letter-spacing: -0.045em;
+    font-weight: 700;
+
+    // @media screen and (max-width: 800px) {
+    //   color: brown;
+    // }
+  }
+
+  & > div {
+    width: 40%;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  & > div > h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  & > div > p {
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+}

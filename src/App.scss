@@ -1,0 +1,50 @@
+.App {
+  background-color: #fafafa;
+  padding: 11rem 24.3rem;
+
+  @media screen and (max-width: 1300px) {
+    padding: 7.1rem 15.2rem;
+  }
+  @media screen and (max-width: 1000px) {
+    padding: 7.1rem 6.2rem;
+  }
+
+  @media screen and (max-width: 650px) {
+    padding: 7.1rem 2.2rem;
+  }
+}
+
+.App__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.App__card > div {
+  margin-bottom: 5rem;
+}
+
+.App__card > div:nth-child(2) {
+  margin-top: 10rem;
+}
+
+.App__card > div:nth-child(5) {
+  margin-top: 10rem;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 0;
+  }
+}
+
+.App__card > div:nth-child(4) {
+  @media screen and (max-width: 800px) {
+    margin-top: 8rem;
+  }
+}
+
+.App__card > div:nth-child(6) {
+  @media screen and (max-width: 800px) {
+    margin-top: 8rem;
+  }
+}
